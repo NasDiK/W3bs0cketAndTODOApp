@@ -1,0 +1,41 @@
+.wrapper{
+    width:95%;
+    margin:0 auto;
+    position: relative;
+}
+
+.loginWrapper{
+    border:1px solid black;
+    border-radius: 25px;
+    background-color: #c2ff01;
+}
+
+.enterName{
+    padding:20px;
+}
+
+.enterChatButton{
+    width:100%;
+}
+
+.chatWrapper{
+    padding: 10px;
+    border:1px solid black;
+    position: relative;
+    height: 80vh;
+}
+.chat{
+    border:1px solid black;
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.chatControls{
+    border:1px solid black;
+
+    height: 10%;
+}
+
+.chatElement span{
+    word-wrap: break-word;
+}

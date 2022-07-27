@@ -1,0 +1,33 @@
+.wrapper{
+    padding:5px;
+    border:1px solid black;
+    position: relative;
+    width: 95%;
+    display: block;
+    margin:0 auto;
+}
+
+.wrapper .AddTodoButton{
+    width: 100%;
+}
+
+
+.TodoElement{
+    padding-top: 10px;
+    border: 1px solid black;
+    background-color: #FFBF10;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-font-smoothing: subpixel-antialiased;
+    margin-bottom: 8px;
+    user-select: none;
+    display:inline-block;
+    width: 90%;
+
+}
+
+.TodoElement:hover{
+    transition: 0.1s all;
+    border:2px solid purple;
+}
